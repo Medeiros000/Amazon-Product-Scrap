@@ -1,4 +1,5 @@
 # Amazon Product Search + Scraping
+[Leia esta página em português](./README.md)
 
 <p align="center">
   <img src="assets/screenshot.png" alt="Application Screenshot" width="400"/>
