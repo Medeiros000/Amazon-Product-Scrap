@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Scraper</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Amazon Product Scrap</h1>    
+    <p>Amazon can block requests from this tool if it detects scraping behavior.</p>
+    <div class="search-box">
+      <input type="text" id="keyword" placeholder="Enter search keyword..." />
+      <button id="searchBtn">Search</button>
+    </div>
+    <div id="results"></div>
+  </div>
+  <script type="module" src="scrap_script.js"></script>
+</body>
+</html>
